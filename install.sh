@@ -7,7 +7,7 @@ nvm_has() {
 }
 
 nvm_install_dir() {
-  echo "/Users/siddharth/.nvm"
+  echo "${NVM_DIR:-"$HOME/.nvm"}"
 }
 
 nvm_latest_version() {
